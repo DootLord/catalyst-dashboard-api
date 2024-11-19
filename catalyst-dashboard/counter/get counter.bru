@@ -1,11 +1,11 @@
 meta {
-  name: increment count
+  name: get counter
   type: http
   seq: 2
 }
 
-post {
-  url: /count
+get {
+  url: 127.0.0.1:3001/counter
   body: none
   auth: none
 }

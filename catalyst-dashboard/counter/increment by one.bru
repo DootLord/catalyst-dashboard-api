@@ -1,0 +1,17 @@
+meta {
+  name: increment by one
+  type: http
+  seq: 1
+}
+
+post {
+  url: 127.0.0.1:3001/counter
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "value":1
+  }
+}
